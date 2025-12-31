@@ -99,3 +99,43 @@
             else:
                 # warna next node pe move
                 curr = curr.next
+
+
+
+l = linkedlist()
+
+l.inserthead(2)
+l.inserthead(5)
+l.inserthead(10)
+l.inserthead(15)
+l.inserthead(25)
+l.inserthead(35)
+
+l.append(45)
+
+l.insert_after(5, 6)
+
+l.clear()
+
+l.inserthead(2)
+l.inserthead(5)
+l.inserthead(10)
+l.inserthead(15)
+l.inserthead(25)
+l.inserthead(35)
+
+l.delete_head()
+
+l.inserthead(45)
+l.inserthead(6)
+l.inserthead(4)
+l.inserthead(456)
+
+l.pop()
+
+l.remove(45)
+
+print("Index of 5:", l.search(5))
+print("Element at index 2:", l[2])
+print("Final Linked List:", l)
+
